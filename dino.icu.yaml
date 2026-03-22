@@ -177,7 +177,12 @@ bs: # by https://github.com/leecheeyong/BrawlBio
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-  
+
+builders-club: #turtlesy1234@gmail.com U0AM2DYC3FB
+  - ttl: 600
+    type: CNAME
+    value: builders-club-henna.vercel.app.
+
 cad: # by https://github.com/leecheeyong/community-widgets
   ttl: 600
   type: CNAME
@@ -460,6 +465,11 @@ icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hac
   ttl: 600
   type: A
   value: 76.76.21.21
+
+inherit: # mtthsschrbr@proton.me
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
   
 innohacks: #efe
   ttl: 600
